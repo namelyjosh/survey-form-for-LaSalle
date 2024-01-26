@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang ="en">
+
+  <head>
+    <title>Survey Form</title>
+      <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+    <form id="survey-form" class="survey-form">
+    <header>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Please fill out this form with the following survey questions:</p>
+    </header>
+
+  <fieldset>
+      <label id="name-label">Name: <input id="name" name="name-label" type="text" placeholder="Enter your full name" required /></label>
+      
+      <label id="email-label">Email: <input name="email-label" id="email" type="email" placeholder="Enter your email address" required /></label>
+
+      <label id="number-label">Age:  <input id="number" name="number" placeholder="Enter your age" type="number" min="1" max="1000000000000">
+
+  </fieldset>
+  
+  <fieldset>What La Salle university did you study?
+    <select id="dropdown">
+      <option value=""> (select one) </option>
+      <option value="1"> De La Salle University </option>
+      <option value="2"> De La Salle Zobel Alabang </option>
+      <option value="3"> De La Salle-College of Saint Benilde </option>
+      <option value="4"> De La Salle Lipa </option>
+      <option value="5"> De La Salle Araneta </option>
+      <option value="6"> De La Salle John Bosco College </option>
+    </select>
+
+  </fieldset>
+
+  <fieldset>
+    <legend>Level of schooling
+      <label><input class="inline" id="elementary" type="radio" name="radio-type" value="Submit" checked /> Elementary</label>
+      <label><input class="inline" id="highschool" type="radio" name="radio-type" value="Submit" /> Highschool</label>
+      <label><input class="inline" id="college" type="radio" name="radio-type" value="Submit" /> College</label>
+    </legend>
+  </fieldset>
+
+  <fieldset>
+    <legend>Scholarships</legend>
+    <label><input type="checkbox" class="inline" name="checkbox-type" value="Submit" /> Sports and Athletics</label>
+    <label><input type="checkbox" class="inline" name="checkbox-type" value="Submit" /> Entrance Scholarships</label>
+    <label><input type="checkbox" class="inline" name="checkbox-type" value="Submit" /> Academic Excellence</label>
+    <label><input type="checkbox" class="inline" name="checkbox-type" value="Submit" /> Service Rendering</label>
+    <label><input type="checkbox" class="inline" name="checkbox-type" value="Submit" /> Financial Assistance</label>
+    <textarea name="textarea" id="comments" rows="3" cols="30" placeholder="Comments" ></textarea>
+    </fieldset>
+  
+    <fieldset>
+    <input class="inline" name="terms-and-conditions" value="Submit" type="submit" id="submit">
+  </fieldset>
+    </form>
+  </body>
+  </html>

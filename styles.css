@@ -1,0 +1,44 @@
+body{
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background-color: #002442;
+  color: #f5f6f7;
+  font-family: Georgia, serif;
+  font-size: 16px;
+}
+
+h1, p{
+  margin: 1em auto;
+  text-align: center;
+  font-family: Verdana, sans-serif;
+}
+
+label{
+  display: block;
+  margin: 0.5rem 0;
+}
+
+fieldset{
+  border:0;
+  padding: 2rem;
+  padding-left: 0;
+  padding-right: 0;
+}
+form{
+  margin: 0 auto;
+  max-width: 500px;
+  min-width: 300px;
+  width: 60vw;
+  padding-bottom: 2em;
+}
+label{
+  display: block;
+  margin: 0.5rem 0;
+}
+legend{
+  border: 0;
+  padding: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
